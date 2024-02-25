@@ -347,6 +347,15 @@
 .auth-form {
     width: 500px;
     overflow: hidden;
+    display: none;
+}
+
+.auth-form-register--active {
+    display: block;
+}
+
+.auth-form-login--active {
+    display: block;
 }
 
 .auth-form__container {
