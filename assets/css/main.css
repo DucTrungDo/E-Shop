@@ -358,6 +358,10 @@
     display: block;
 }
 
+/* .auth-form--active {
+    display: block;
+} */
+
 .auth-form__container {
     padding: 0 32px;
 }
@@ -525,6 +529,17 @@
     padding: 0 12px;
     cursor: pointer;
 }
+
+/* .header__cart-wrap::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 26px;
+    width: calc(100% + 10px);
+    height: 20px;
+    background-color: red;
+} */
 
 .header__cart-wrap:hover .header__cart-list {
     display: block;
