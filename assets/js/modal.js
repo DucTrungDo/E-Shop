@@ -43,6 +43,10 @@ for (const btn of backBtn) {
 
 modalContainer.addEventListener('click', (event) => event.stopPropagation());
 
+
+
+/* method 2 */
+
 // const loginBtns = document.querySelectorAll(
 //     '.header__navbar-item--login, .btn--login'
 //   );
